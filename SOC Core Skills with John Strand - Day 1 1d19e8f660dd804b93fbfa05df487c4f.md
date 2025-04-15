@@ -98,13 +98,13 @@ This set of notes covers Day 1 of the SOC Core Skills course with John Strand, w
 ## Quiz Questions
 
 1. **Question**: What are the four layers of the TCP/IP model that John Strand recommends using instead of the OSI model?
-**Answer**: Network Access (physical/Ethernet), Internet (IP), Transport (TCP/UDP), and Application.
+    - **Answer**: Network Access (physical/Ethernet), Internet (IP), Transport (TCP/UDP), and Application.
 2. **Question**: In the TCP 3-way handshake, what happens when the acknowledgment number is one more than the sequence number in the response packet?
-**Answer**: This is normal behavior - the acknowledgment number increments the received sequence number by one to confirm receipt of the SYN packet.
+    - **Answer**: This is normal behavior - the acknowledgment number increments the received sequence number by one to confirm receipt of the SYN packet.
 3. **Question**: Why does John Strand describe his approach to incident response as using "Legos" of functionality?
-**Answer**: Because complex security problems can be solved by assembling modular skills (like Lego bricks) rather than following rigid, complex procedures. These fundamental skills can be combined in different ways to address various security scenarios.
+    - **Answer**: Because complex security problems can be solved by assembling modular skills (like Lego bricks) rather than following rigid, complex procedures. These fundamental skills can be combined in different ways to address various security scenarios.
 4. **Question**: What are the primary differences between tcpdump and Wireshark that determine when you would use each tool?
-**Answer**: tcpdump is a command-line tool best for high-speed data capture, scripting, and initial triage, while Wireshark is a GUI tool that excels at in-depth packet analysis, visualization of traffic, and detailed examination of specific communications.
+    - **Answer**: tcpdump is a command-line tool best for high-speed data capture, scripting, and initial triage, while Wireshark is a GUI tool that excels at in-depth packet analysis, visualization of traffic, and detailed examination of specific communications.
 
 ## Notable Quotes
 
