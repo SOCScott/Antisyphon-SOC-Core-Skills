@@ -13,7 +13,7 @@ This set of notes covers Day 1 of the SOC Core Skills course with John Strand, w
 3. Effective incident response requires building a toolkit of fundamental skills (like "Legos") that can be assembled to solve complex security problems.
 4. Packet analysis tools like tcpdump and Wireshark are complementary - tcpdump excels at high-speed data capture, while Wireshark is superior for in-depth packet analysis and visualization.
 
-## Notes
+## SOC Core Skills - Day 1 Study Notes
 
 ### Course Overview and Philosophy
 
