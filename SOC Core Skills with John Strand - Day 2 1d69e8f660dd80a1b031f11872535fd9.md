@@ -1,8 +1,6 @@
 # SOC Core Skills with John Strand - Day 2
 
-# SOC Core Skills with John Strand - Day 2 Notes
-
----
+https://www.youtube.com/watch?v=QCzsliXu-z0
 
 ## Summary
 
@@ -157,13 +155,13 @@ Day 2 of SOC Core Skills with John Strand focuses on Linux and Windows system fu
 ## Quiz Questions
 
 1. **Question**: In Linux, why is the `/proc` directory important for malware investigation?
-**Answer**: The `/proc` directory contains runtime information about processes, including a link to the executable in memory (`/proc/[PID]/exe`). This allows investigators to examine and extract malware even if the original file has been deleted from the disk, as it remains in memory until the process terminates.
+    - **Answer**: The `/proc` directory contains runtime information about processes, including a link to the executable in memory (`/proc/[PID]/exe`). This allows investigators to examine and extract malware even if the original file has been deleted from the disk, as it remains in memory until the process terminates.
 2. **Question**: When investigating a potentially compromised Windows system, why is it recommended to start with network connection analysis rather than process analysis?
-**Answer**: Starting with network connections narrows the focus to processes that are actively communicating, making it easier to identify potential malware. Commands like `netstat -naob` show established connections with their associated process IDs and executable names, providing immediate leads for investigation.
+    - **Answer**: Starting with network connections narrows the focus to processes that are actively communicating, making it easier to identify potential malware. Commands like `netstat -naob` show established connections with their associated process IDs and executable names, providing immediate leads for investigation.
 3. **Question**: What Linux command would you use to find all deleted files that are still being used by processes?
-**Answer**: The command `lsof +L1` shows all files with a link count less than 1, which indicates files that have been deleted from the file system but are still open by processes. This is useful for finding malware that deletes itself after execution but remains running in memory.
+    - **Answer**: The command `lsof +L1` shows all files with a link count less than 1, which indicates files that have been deleted from the file system but are still open by processes. This is useful for finding malware that deletes itself after execution but remains running in memory.
 4. **Question**: How can you identify which Windows services are running within multiple instances of svchost.exe?
-**Answer**: The command `tasklist /svc` will show which specific Windows services are running within each instance of svchost.exe. This transforms the generic svchost.exe process information into actionable data that reveals the actual services being executed.
+    - **Answer**: The command `tasklist /svc` will show which specific Windows services are running within each instance of svchost.exe. This transforms the generic svchost.exe process information into actionable data that reveals the actual services being executed.
 
 ## Notable Quotes
 
