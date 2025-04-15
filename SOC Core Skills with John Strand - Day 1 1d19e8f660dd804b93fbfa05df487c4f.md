@@ -1,4 +1,4 @@
-# SOC Core Skills with John Strand - Day 1
+# SOC Core Skills w/ John Strand - Day 1
 
 https://www.youtube.com/watch?v=IHlcnAUMlzE
 
