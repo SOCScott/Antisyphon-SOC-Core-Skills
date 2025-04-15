@@ -144,14 +144,6 @@ Day 2 of SOC Core Skills with John Strand focuses on Linux and Windows system fu
     - Use `wmic process where processid=[PID] get commandline` to see the command
     - Examine loaded DLLs to identify malicious behavior
 
-### Anti-Siphon Core Certification
-
-- Pay-what-you-can certification (minimum $5)
-- Three steps to certification:
-    1. Pass multiple-choice questions
-    2. Complete cyber range challenges
-    3. Submit write-ups demonstrating skills
-
 ## Quiz Questions
 
 1. **Question**: In Linux, why is the `/proc` directory important for malware investigation?
