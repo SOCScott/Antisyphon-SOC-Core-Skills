@@ -1,6 +1,6 @@
 # SOC Core Skills with John Strand - Day 1
 
-## Introduction Summary
+## Summary
 
 This set of notes covers Day 1 of the SOC Core Skills course with John Strand, which focuses on fundamental skills necessary for security professionals. The course takes a practical approach by examining security concepts through the lens of incident response and compromise scenarios rather than dry technical explanations. John covers TCP/IP networking fundamentals, packet analysis with tcpdump and Wireshark, and emphasizes the importance of mastering core skills rather than relying solely on security tools. The course is designed to build a foundation for security analysis by teaching participants how to understand the underlying technologies they'll encounter in security roles.
 
