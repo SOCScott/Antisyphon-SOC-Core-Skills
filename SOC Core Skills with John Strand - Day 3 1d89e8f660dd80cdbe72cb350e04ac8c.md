@@ -1,8 +1,6 @@
 # SOC Core Skills with John Strand - Day 3
 
-# SOC Core Skills with John Strand - Day 3 Notes
-
----
+https://www.youtube.com/watch?v=QCzsliXu-z0
 
 ## Summary
 
@@ -15,7 +13,7 @@ Day 3 of SOC Core Skills with John Strand focuses on advanced analysis technique
 3. Beaconing detection is essential for identifying sophisticated malware that bypasses signature-based detection by using encryption and legitimate services like Microsoft and Amazon CDNs - look for patterns in intervals, data sizes, and connection duration.
 4. When applying for security jobs, research the technology stack of the company and become familiar with security configurations by studying CIS benchmarks and hardening guides for those technologies.
 
-## Detailed Notes
+## SOC Core Skills - Day 3 Study Notes
 
 ### Deep Blue CLI
 
@@ -215,13 +213,13 @@ Day 3 of SOC Core Skills with John Strand focuses on advanced analysis technique
 ## Quiz Questions
 
 1. **Question**: What technique can be used to analyze a potentially compromised system without alerting attackers who might be monitoring for security tools being run?
-**Answer**: Memory analysis with tools like Volatility allows investigators to examine a memory dump of the system offline, revealing processes, network connections, and command line parameters without alerting attackers who are monitoring the live system.
+    - **Answer**: Memory analysis with tools like Volatility allows investigators to examine a memory dump of the system offline, revealing processes, network connections, and command line parameters without alerting attackers who are monitoring the live system.
 2. **Question**: When analyzing firewall logs, what three key characteristics does RITA examine to identify potential beaconing malware?
-**Answer**: RITA examines: 1) Connection intervals (timing between connections), 2) Data sizes (consistency in bytes transferred), and 3) Connection durations (how long connections remain open) to identify non-human traffic patterns that might indicate command and control activity.
+    - **Answer**: RITA examines: 1) Connection intervals (timing between connections), 2) Data sizes (consistency in bytes transferred), and 3) Connection durations (how long connections remain open) to identify non-human traffic patterns that might indicate command and control activity.
 3. **Question**: How do sophisticated attackers evade detection when using command and control servers, as demonstrated in the AC Hunter lab?
-**Answer**: Sophisticated attackers evade detection by using legitimate cloud services (like Microsoft and Amazon CDNs) with good reputation scores, alternating connections between multiple destinations, employing encryption to hide content, and sometimes using techniques like DNS tunneling to bypass content inspection.
+    - **Answer**: Sophisticated attackers evade detection by using legitimate cloud services (like Microsoft and Amazon CDNs) with good reputation scores, alternating connections between multiple destinations, employing encryption to hide content, and sometimes using techniques like DNS tunneling to bypass content inspection.
 4. **Question**: What is one recommendation John Strand gives to improve your chances when applying for security jobs, especially regarding technology stacks you're not familiar with?
-**Answer**: Research the company's technology stack before applying, download CIS benchmarks and security guides for those technologies, understand where security-relevant settings are located, and highlight this knowledge on your resume and during interviews to demonstrate your ability to learn and research independently.
+    - **Answer**: Research the company's technology stack before applying, download CIS benchmarks and security guides for those technologies, understand where security-relevant settings are located, and highlight this knowledge on your resume and during interviews to demonstrate your ability to learn and research independently.
 
 ## Notable Quotes
 
