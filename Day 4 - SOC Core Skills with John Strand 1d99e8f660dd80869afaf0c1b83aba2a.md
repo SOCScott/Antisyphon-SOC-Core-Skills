@@ -1,6 +1,6 @@
 # SOC Core Skills with John Strand - Day 4
 
-# SOC Core Skills with John Strand - Day 4 Notes
+https://www.youtube.com/watch?v=YcG8gNSLTPQ
 
 ## Summary
 
@@ -196,13 +196,13 @@ Day 4 of SOC Core Skills with John Strand focuses on advanced security monitorin
 ## Quiz Questions
 
 1. **Question**: How does User Entity Behavior Analytics (UEBA) differ from traditional security monitoring approaches?
-**Answer**: UEBA correlates data from multiple log sources (domain controllers, workstations, firewalls, email servers, etc.) to identify suspicious patterns of behavior, rather than generating isolated alerts from individual systems. It uses techniques like stacking analysis and machine learning to establish baselines of normal behavior and detect deviations, providing context that single-point monitoring cannot.
+    - **Answer**: UEBA correlates data from multiple log sources (domain controllers, workstations, firewalls, email servers, etc.) to identify suspicious patterns of behavior, rather than generating isolated alerts from individual systems. It uses techniques like stacking analysis and machine learning to establish baselines of normal behavior and detect deviations, providing context that single-point monitoring cannot.
 2. **Question**: According to John Strand, what approach should organizations take when handling "false positives" in their security tools?
-**Answer**: John argues that "false positives" don't exist - they should be viewed as "detection tuning opportunities." Instead of deleting alerts entirely, organizations should refine their detection rules to accommodate legitimate business processes while still maintaining visibility into potential threats. This puts responsibility on analysts to improve detection rather than blaming the alerts themselves.
+    - **Answer**: John argues that "false positives" don't exist - they should be viewed as "detection tuning opportunities." Instead of deleting alerts entirely, organizations should refine their detection rules to accommodate legitimate business processes while still maintaining visibility into potential threats. This puts responsibility on analysts to improve detection rather than blaming the alerts themselves.
 3. **Question**: What makes Velociraptor valuable as an incident response tool, and how does it differ from full EDR solutions?
-**Answer**: Velociraptor is valuable for its ability to remotely investigate systems, run commands across multiple endpoints simultaneously, access file systems, and collect forensic data without alerting attackers. It differs from full EDR solutions in that it lacks prevention capabilities and automatic detection, focusing instead on investigation and response capabilities with a small, efficient binary footprint.
+    - **Answer**: Velociraptor is valuable for its ability to remotely investigate systems, run commands across multiple endpoints simultaneously, access file systems, and collect forensic data without alerting attackers. It differs from full EDR solutions in that it lacks prevention capabilities and automatic detection, focusing instead on investigation and response capabilities with a small, efficient binary footprint.
 4. **Question**: What fundamental shift in vulnerability management strategy does John Strand recommend, and why is it more effective?
-**Answer**: John recommends grouping vulnerabilities by type rather than addressing them IP-by-IP. Instead of fixing each vulnerability individually across systems, organizations should use automation tools like Ansible, Puppet, or Group Policy to remediate similar vulnerabilities across all affected systems simultaneously. This approach can address hundreds or thousands of instances of the same vulnerability through a single configuration change, dramatically increasing efficiency.
+    - **Answer**: John recommends grouping vulnerabilities by type rather than addressing them IP-by-IP. Instead of fixing each vulnerability individually across systems, organizations should use automation tools like Ansible, Puppet, or Group Policy to remediate similar vulnerabilities across all affected systems simultaneously. This approach can address hundreds or thousands of instances of the same vulnerability through a single configuration change, dramatically increasing efficiency.
 
 ## Notable Quotes
 
