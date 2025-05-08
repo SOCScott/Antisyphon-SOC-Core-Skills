@@ -13,7 +13,7 @@ Day 4 of SOC Core Skills with John Strand focuses on advanced security monitorin
 3. Open-source security tools like Velociraptor, Wazuh, and OWASP ZAP provide powerful capabilities for security monitoring, incident response, and vulnerability detection without the high costs of commercial solutions.
 4. Vulnerability management should focus on grouping similar vulnerabilities across systems rather than addressing issues on an IP-by-IP basis, allowing for more efficient remediation through automation and configuration management.
 
-## Detailed Notes
+## SOC Core Skills - Day 4 Study Notes
 
 ### User Entity Behavior Analytics (UEBA)
 
